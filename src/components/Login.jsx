@@ -26,7 +26,7 @@ export default function Login() {
 
     return (
         <div className='flex flex-col justify-center items-center h-screen w-screen'>
-            <div className='w-[30vw] h-[65vh] bg-white rounded-lg shadow-lg'>
+            <div className='w-[90vw] md:w-[60vw] lg:w-[30vw] h-[50vh] md:h-[40vh] lg:h-[65vh] bg-white rounded-lg shadow-lg'>
             <h1 className='text-center text-xl mt-5'>Iniciar Sesion</h1>
             <p className='text-gray-600 text-xs mt-3 text-center mb-5'>Ingresa tus credenciales para acceder al sistema</p>
             <form  onSubmit={handleSubmit(loginForm)} className='flex flex-col mx-10 gap-8 '>
